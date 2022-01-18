@@ -1,8 +1,29 @@
-import '../styles/globals.css'
-import type { AppProps } from 'next/app'
+import Head from "next/head";
+import "../styles/globals.scss";
 
-function MyApp({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import type { AppProps } from "next/app";
+
+if (typeof window !== "undefined") {
+  document.body.className = document.body.className
+    ? document.body.className + " js-enabled"
+    : "js-enabled";
 }
 
-export default MyApp
+const App = ({ Component, pageProps }: AppProps) => {
+  return (
+    <>
+      <Head>
+        <meta charSet="utf-8" />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, viewport-fit=cover"
+        />
+        <meta name="theme-color" content="#0b0c0c" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      </Head>
+      <Component {...pageProps} />
+    </>
+  );
+};
+
+export default App;
