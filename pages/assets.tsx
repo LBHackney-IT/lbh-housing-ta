@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Assets: NextPage = () => {
   return (
     <Layout>
-      <h1 className="lbh-heading-h1">Assets</h1>
+      <h1 className="lbh-heading-h1">Accommodation</h1>
       <nav className="lbh-pagination">
       <div className="lbh-pagination__summary">Showing 101—150 of 246 results</div>
       <ul className="lbh-pagination">
