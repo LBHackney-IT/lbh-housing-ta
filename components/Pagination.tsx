@@ -1,7 +1,6 @@
-const Pagination = ():JSX.Element => {
+const Pagination = (): JSX.Element => {
   return (
-      <nav className="lbh-pagination">
-      <div className="lbh-pagination__summary">Showing 101—150 of 246 results</div>
+    <nav className="lbh-pagination">
       <ul className="lbh-pagination">
         <li className="lbh-pagination__item">
           <a className="lbh-pagination__link" href="#" aria-label="Previous page">
