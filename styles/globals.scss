@@ -20,3 +20,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.lbh-summary-panel {
+  padding: 16px;
+  border: 1px solid #000;
+  background: #fff;
+  overflow: auto;
+}
+
+.lbh-summary-panel__content {
+  float: left;
+}
+
+.lbh-summary-panel__img {
+  width: 200px;
+  float: right;
+}
