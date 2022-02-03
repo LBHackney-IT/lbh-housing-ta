@@ -18,7 +18,7 @@ It's built using [Hackney Design System](https://design-system.hackney.gov.uk/).
 git clone git@github.com:LBHackney-IT/lbh-housing-ta.git
 ```
 
-The app needs Node 14, if you have [NVM](https://github.com/nvm-sh/nvm) installed just run `nvm use` in your terminal.
+The app needs a specific version of node (as documented in `/nvmrc`), if you have [NVM](https://github.com/nvm-sh/nvm) installed just run `nvm use` in your terminal.
 
 Install the dependencies:
 
