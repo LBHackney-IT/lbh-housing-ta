@@ -8,7 +8,7 @@ const SummaryPanel = (): JSX.Element => {
         <p className="lbh-body-s">Hackney Hostel - Hostel LSE, £32 a night</p>
         <p className="lbh-body-s">Room 1, 11 Meynell Road, Hackney. E9 7AP.</p>
       </div>
-      <img className="lbh-summary-panel__img" src="https://hackneywebsite-wp-mediafiles.s3.eu-west-2.amazonaws.com/wp-content/uploads/1920_1920-hackneytownhallwithlights-2.jpg" alt="Hackney at Christmas"></img>
+      <img className="lbh-summary-panel__img" src="https://hackneywebsite-wp-mediafiles.s3.eu-west-2.amazonaws.com/wp-content/uploads/1920_1920-hackneytownhallwithlights-2.jpg" alt="Hackney at Christmas" />
     </div>
   );
 };
